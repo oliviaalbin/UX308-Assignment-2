@@ -1,25 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link rel="manifest" href="/magic.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <meta name="theme-color" content="white" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Magic 8 Ball">
-    <meta name="msapplication-TileImage" content="/img/ms144.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <!-- JQuery / Materialize CSS + JavaScript imports -->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <style>
+        #container {
+            padding-left: 300px;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        @media only screen and (max-width : 992px) {
+            #container {
+                padding-left: 0px;
+            }
+        }
+    </style>
 
 </head>
 
 <body>
-    <form id="magic8ball">
-        <h1>Magic 8 ball</h1>
-        <h2>the 8 ball knows</h2>
-        <p>Ask me anything I will answer.</p>
-        <input id="question" placeholder="enter a question" />
-        <button type="submit">Ask</button>
-        <p id="answer">If you had asked The answer would be here</p>
-    </form>
-    <script src="js/main.js" type="module"></script>
+    <div id="container">
+
+        <div id="menu">
+
+            <ul id="slide-out" class="side-nav fixed show-on-large-only">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header" href="#experience">Experience<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#hudsonpublic">Hudson Public</a></li>
+                                    <li><a href="#grdc">Grand River Dinner Cruises</a></li>
+                                    <li><a href="#timhortons">Tim Hortons</a></li>
+                                    <li><a href="#erlf">Eric Reeker Livestock Feeds</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i
+                    class="material-icons">menu</i></a>
+
+            <h2><b>Olivia Albin</b></h2>
+
+            <p>Hello! Welcome to the resume of Olivia Albin :)</p>
+            <br />
+
+<section id="about">
+    <h4><b>About</b></h4>
+    <p>I am 23 and a third-year user experience design student at Laurier that aspires to work on inspiring, impactful projects in the UX and service design fields.</p>
+    <p>Along with my primary studies, I am also currently working towards minors in psychology and community health, both of which inform
+        my design work as well as enrich my understanding of people which is key to good design.</p>
+    <p>Aside from this, I have a great interest in the science, especially biology and environmental science. This passion led me to enroll in the life sciences
+        program at McMaster University until I realized the versatility and creativity of design is better path for me. I hope to be able to merge these two worlds
+        my future career path, working in both design and the sciences.</p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+</section>          
+
+<section id="education">
+    <h4><b>Education</b></h4>
+    <br />
+    <h5>High School</h5>
+    <b>McKinnon Park Secondary School — OSSD</b>
+    <p>September 2012 - June </p>
+    <p>In high school I was part of various clubs that were involved in the community and was an honour student for all 4 academic years.</p>
+    <br />
+    <h5>University</h5>
+    <b>Wilfrid Laurier University — BDes</b>
+    <p>September 2019 - Present (Graduate Spring 2023)</p>
+    <p>Laurier's 4-year User Experience (UX) Design program primarily teaches various skills intended to prepare graduates for a 
+        career in the web and product design field including courses on topics such as design thinking, user research, web and graphic 
+        design, project management, and interaction design.<br />
+        In pursuing this degree I continue to learn the value of hard work, determination, communication, and creative thinking that I 
+        feel all translate to applications outside of school as well in the job positions I fill. </p>
+    <p>Throughout my time at Laurier, I have maintained a position on the Dean's Honour Role.</p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+</section>
+
+<section id="experience">
+
+    <section id="hudsonpublic">
+        <h4><b>Experience</b></h4>
+        <h5>Hudson Public Kitchen + Bar - Line Cook/Prep Cook</h5>
+        <p>October 2021 - Present</p>
+        <p>Working as a line cook, I participate in making each order for in-house customers as well as take out orders. Each day, 
+            I work with a deep fryer, gas stove, pizza oven, and flat top grill to prepare dishes for customers. Working on the line, 
+            I have improved my communication, multi-tasking ability, presentation quality, and team work skills. I enjoy the fast-paced 
+            structure and the opportunity to add value to a team and to a customer's experience.</p>
+        <p>As a prep cook, I assist in stocking, portioning, preparing backups, and preparing some ingredients and pre-made menu items. 
+            In this role, I am able to work quickly and independently to ensure that line operations run as smoothly possible.</p>
+        <br />
+    </section>
+
+    <section id="grdc">
+        <h5>Grand River Dinner Cruises - Baker, Server, Landscaper</h5>
+        <p>May 2013 - Present (Seasonal)</p>
+        <p>In the role of baker, I prepare large quantities of baked goods including up to 4 dozen loaves of bread and 40 pies 
+            as well as muffins, and butter tarts, to be served on the cruises and sold to customers. I work alone, starting in 
+            the early morning, and am responsible for finishing on a deadline.</p>
+        <p>As serving staff, I am in charge of getting the boat ready for a cruise, taking drink orders, serving customers food and alcohol, 
+            designating tasks to co-workers, and balancing the float at the end of a cruise.</p>
+        <p>As landscape staff, I mow and trim the grounds on a regular basis. In this role, I am responsible for setting my own schedule.</p>
+        <br />
+    </section>
+
+    <section id=""timhortons>
+        <h5>Tim Hortons - Team Member</h5>
+        <p>August 2020 - July 2021</p>
+        <p>Working as a Tim Hortons team member, I helped to maintain a clean work environment while serving customers quickly and professionally. 
+            At the time I worked at this location, we were among the busiest locations in the province. Here, I learned the importance of working well 
+            as a team and independently.</p>
+        <br />
+    </section>
+
+    <section id="erlf">
+        <h5>Eric Reeker Livestock Feeds - Labourer, Assistant</h5>
+        <p>January 2017 - August 2017</p>
+        <p>As an employee of Reeker Feeds, I mainly assisted in mixing, bagging and shipping various livestock feeds as well as assisting customers. 
+            I also assisted in office duties including invoicing, month-end filing, and other administrative tasks.</p>
+        <br />
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    </section>
+
+</section>
+
+        </div>
+
+    </div>
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
+
+
+    </script>
 </body>
+
+</html>
