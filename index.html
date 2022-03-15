@@ -174,7 +174,7 @@
         <br />
     </section>
 
-    <section id=""timhortons>
+    <section id="timhortons"timhortons>
         <h5>Tim Hortons - Team Member</h5>
         <p>August 2020 - July 2021</p>
         <p>Working as a Tim Hortons team member, I helped to maintain a clean work environment while serving customers quickly and professionally. 
@@ -216,6 +216,14 @@
             closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
             draggable: true // Choose whether you can drag to open on touch screens
         });
+        window.onload = () => {
+            'use strict';
+
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('sw.js');
+            }
+        }
 
 
     </script>
